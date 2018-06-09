@@ -2,3 +2,24 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @import "jekyll-theme-prologue";
+
+#main > section {
+  text-align: left;
+}
+
+#experience .time {
+  width: 200px;
+  text-align: right;
+}
+
+#about-me {
+  .left {
+    width: 30%;
+    float: left;
+  }
+  .right{
+    width: 70%;
+    float: left;
+    font-size: 12pt;
+  };
+}
